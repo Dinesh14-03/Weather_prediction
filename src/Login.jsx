@@ -1,7 +1,9 @@
 import './App.css';
 import data from './response.json';
+import { useState } from 'react';
 
 function Login() {
+    const [show , setshow] = useState(false);
     const weather = () => {
         const items = [];
 
@@ -17,8 +19,9 @@ function Login() {
 
     return (
         <>
-            <h1>Please select the weather status</h1>
-             {weather()};
+            <h1>Please check the weather status</h1>
+            <button onClick={()=>setshow(true)}>Click here</button>
+            {show && weather()}
         </>
     );
 }
