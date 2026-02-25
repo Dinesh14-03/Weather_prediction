@@ -1,5 +1,7 @@
 [
   { "city": "Salem", "temperature": 98 },
   { "city": "Chennai", "temperature": 95 },
-  { "city": "Coimbatore", "temperature": 92 }
+  { "city": "Coimbatore", "temperature": 92 },
+  { "city": "Trichy", "temperature":70},
+  { "city": "OOty", "temperature":89}
 ]
