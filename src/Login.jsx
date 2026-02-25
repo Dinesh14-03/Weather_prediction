@@ -19,7 +19,7 @@ function Login() {
 
     return (
         <>
-            <h1>Please check the weather status</h1>
+            <h1>Please select the weather status</h1>
             <button onClick={()=>setshow(true)}>Click here</button>
             {show && weather()}
         </>
