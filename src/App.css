@@ -1,23 +1,6 @@
-.home{
+#home{
   background-color: white;
   width: max-content;
   height: max-content;
 }
 
-.form-container{
-  align-content: center;
-  background-color: white;
-  width: 400px;
-  height: 300px;
-  margin: 40px;
-  padding: 20px;
-  border-radius: 20px;
-  color: black;
-  tab-size: 20px;
-}
-
-.cont{
-  align-items: center;
-  border-radius: 20px;
-
-}
